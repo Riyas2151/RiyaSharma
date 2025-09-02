@@ -6,19 +6,23 @@ import Projects from "./pages/Projects";
 import Agence from "./pages/Agence";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import Navbar from "./components/Navigation/Navbar";
+import FullScreenNav from "./components/Navigation/FullScreenNav";
 
 function App() {
   // const [loading, setLoading] = useState(true);
  
 
   return (
-    <div className=" text-white min-h-screen">
+    <div className="min-h-screen">
+      {/* <Navbar/> */}
+      <FullScreenNav/>
 
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/agence" element={<Agence />}/>
         <Route path="/projects" element={<Projects />}/>
-      </Routes>
+      </Routes> */}
       {/* {loading && <Loader setLoading={setLoading} />}
       {!loading && (
         <div className="p-10">

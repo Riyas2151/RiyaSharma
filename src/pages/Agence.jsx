@@ -30,7 +30,12 @@ const Agence = () => {
         start: "top 36%",
         end: "top -100%",
         pin: true,
-        scrub: true,
+        // pinSpacing:true,
+        // pinReparent:true,
+        // pinType:1,
+        // anticipatePin: 1,
+        // invalidateOnRefresh: true,
+        scrub:1,
         onUpdate: (self) => {
           let imageIndex;
           if (self.progress < 1) {
@@ -46,10 +51,10 @@ const Agence = () => {
 
   return (
     <>
-      <div className="h-full bg-white text-black section1">
+      <div className="h-full  text-black bg-white py-1 relative section1">
         <div
           ref={imageDivRef}
-          className="absolute h-[20vw] w-[15vw] rounded-4xl top-60 overflow-hidden left-[30vw] bg-black"
+          className="absolute h-[20vw] w-[15vw] rounded-4xl top-60 overflow-hidden left-[30vw]"
         >
           <img
             ref={imageRef}
