@@ -8,9 +8,11 @@ const FullScreenNav = () => {
                     <h1 className='font-[font2] leading-[0.8] pt-3 text-center text-[8vw] uppercase'>Projects</h1>
                     <div className="absolute flex ">
                         <div className='flex items-center'>
-                            <h2 className='-font-[font2] leading-[0.8] pt-3 text-center text-[8vw] uppercase'>See What we Did</h2>
+                            <h2 className='-
+                            font-[font2] leading-[0.8] pt-3 text-center text-[8vw] uppercase'>See What we Did</h2>
                             <img src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg" alt="" />
-                            <h2 className='-font-[font2] leading-[0.8] pt-3 text-center text-[8vw] uppercase'>See What we Did</h2>
+                            <h2 className='-
+                            font-[font2] leading-[0.8] pt-3 text-center text-[8vw] uppercase'>See What we Did</h2>
                             <img src="https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg" alt="" />
                         </div>
                         {/* <div>
