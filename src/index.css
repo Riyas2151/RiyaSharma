@@ -34,3 +34,27 @@
 .animate-slide {
   animation: slide 2s steps(6) infinite; /* match greetings count */
 }
+
+
+
+@keyframes moveAnimation{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+.moveX{
+  animation: moveAnimation 10s linear infinite;
+  }
+
+.movelink{
+  opacity: 0;
+  transition: all ease 0.3s;
+}
+
+.link:hover .movelink{
+  opacity: 1;
+}
